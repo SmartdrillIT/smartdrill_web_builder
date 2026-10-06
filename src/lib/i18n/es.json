@@ -1,0 +1,243 @@
+{
+  "navbar": {
+    "brand": "Smart",
+    "brandHighlight": "Drill",
+    "tagline": "Servicio Técnico",
+    "links": {
+      "services": "Servicios",
+      "brands": "Marcas",
+      "contact": "Contáctanos"
+    },
+    "mobile": {
+      "navTitle": "Navegación",
+      "status": "En línea",
+      "support": "Soporte técnico inmediato"
+    }
+  },
+  "hero": {
+    "title": "Smart",
+    "highlight": "Drill",
+    "description": "Reparación de hardware y software de computadoras, tablets y smartphones."
+  },
+  "openStatus": {
+    "openNow": "Abierto ahora",
+    "closingSoon": "Cierra pronto",
+    "closed": "Cerrado",
+    "until": "hasta las {time}",
+    "opensToday": "abre hoy {time}",
+    "opensTomorrow": "abre mañana {time}",
+    "opensDay": "abre {day} {time}",
+    "weekdays": ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"]
+  },
+  "mascot": {
+    "name": "SmartDrill",
+    "role": "tu técnico virtual"
+  },
+  "repairModal": {
+    "title": "¿Qué le sucede a tu equipo?",
+    "options": {
+      "pantalla": "Pantalla Quebrada",
+      "bateria": "Cambio de Batería",
+      "puerto": "Pin de Carga",
+      "camara": "Cámaras Dañadas",
+      "altavoz": "Altavoz / Audio",
+      "mojado": "Equipo Mojado",
+      "otros": "Otros Problemas"
+    },
+    "placeholder": "Otro problema o detalle...",
+    "cta": "Cotizar por WhatsApp",
+    "whatsappMessage": "Hola! Me gustaría cotizar el arreglo de un: *{model}*\n\n *Problemas detectados:*\n{issues}\n\n¿Me podrían dar un precio estimado?"
+  },
+  "servicesSection": {
+    "title": "Servicios"
+  },
+  "servicesGrid": {
+    "title": "¿Qué hacemos?",
+    "badge": "Especialistas",
+    "more": "Saber más",
+    "description": "Soluciones tecnológicas integrales. Desde reparaciones complejas hasta mantenimiento preventivo.",
+    "items": [
+      {
+        "title": "Reparación de celulares",
+        "desc": "Diagnóstico y reparación para todas las marcas y modelos."
+      },
+      {
+        "title": "Computadoras y laptops",
+        "desc": "Mantenimiento de hardware, software y optimización."
+      },
+      {
+        "title": "Cambio de pin de carga",
+        "desc": "Soldadura de precisión con repuestos de alta calidad."
+      },
+      {
+        "title": "Correo Google",
+        "desc": "Si te olvidaste tu cuenta te ayudamos a recuperarla."
+      },
+      {
+        "title": "Diagnóstico rápido",
+        "desc": "Evaluación profesional detallada sin compromiso."
+      },
+      {
+        "title": "Garantía de servicio",
+        "desc": "Respaldo total en cada una de nuestras reparaciones."
+      }
+    ]
+  },
+  "location": {
+    "title": "Nuestra Ubicación",
+    "baseTitle": "Base de Operaciones",
+    "addressCode": "S15-190",
+    "addressStreet": "Pedro Vicente Maldonado,",
+    "addressCity": "Quito 170601, Ecuador",
+    "scheduleTitle": "Horario de Atención",
+    "days": {
+      "week": "Lunes - Viernes:",
+      "saturday": "Sábado:",
+      "sunday": "Domingo:"
+    },
+    "status": {
+      "closed": "Cerrado / Offline"
+    },
+    "cta": "Cómo llegar"
+  },
+  "footer": {
+    "brand": "Smart Drill",
+    "about": "Especialistas en reanimar tu tecnología. Calidad, rapidez y garantía en cada reparación de celulares y computadoras.",
+    "navTitle": "Navegación",
+    "contactTitle": "Contacto",
+    "address": "Av. Principal 123, Ciudad",
+    "phone": "+593 0987980898",
+    "copyright": "© {year} Smart Drill Servicio Técnico. Todos los derechos reservados.",
+    "links": {
+      "privacy": "Privacidad",
+      "terms": "Términos"
+    }
+  },
+  "servicesPage": {
+    "kicker": "SmartDrill Service",
+    "titleA": "Reparación.",
+    "titleB": "Al milímetro.",
+    "desc": "No es solo una reparación. Es devolverle la vida a la tecnología que usas todos los días.",
+    "cta": "Conocer servicios",
+    "philosophyA": "Hacemos lo complejo,",
+    "philosophyB": "simple",
+    "gridTitle": "Todo lo que necesitas.",
+    "gridDesc": "Soluciones específicas para cada problema de tu dispositivo.",
+    "processTitle": "Nuestra forma de trabajar.",
+    "ctaTitle": "Listo para reparar.",
+    "ctaDesc": "Trae tu equipo hoy. Lo dejamos como nuevo.",
+    "ctaButton": "Contactar por WhatsApp",
+    "philosophy": [
+      { "title": "Diagnóstico Exacto", "text": "Herramientas de última generación para encontrar el problema real." },
+      { "title": "Calidad Original", "text": "Usamos pantallas OLED, AMOLED y componentes de la más alta fidelidad." },
+      { "title": "Garantía Total", "text": "Tu tranquilidad es primero. Cada reparación está respaldada." }
+    ],
+    "process": [
+      { "title": "Diagnóstico", "desc": "Evaluamos tu equipo a fondo para darte un presupuesto exacto." },
+      { "title": "Reparación", "desc": "Técnicos aplican micro-soldadura con precisión quirúrgica." },
+      { "title": "Entrega", "desc": "Testeamos todas las funciones antes de devolvértelo." }
+    ],
+    "services": [
+      { "title": "Google", "desc": "Si te olvidaste tu cuenta Google, te ayudamos." },
+      { "title": "Mantenimiento", "desc": "Tratamiento de placas y conectores tras contacto con líquidos." },
+      { "title": "Reparación PC", "desc": "Diagnóstico y reparación de hardware/software multimarcas." },
+      { "title": "Pin de Carga", "desc": "Cambio de pin y placas de carga para Android y iOS." },
+      { "title": "Baterías", "desc": "Cambio de baterías para todos los modelos Android y iOS." },
+      { "title": "Micro Soldadura", "desc": "Cambios de FPC, IC de carga, condensadores y filtros." },
+      { "title": "Pantallas", "desc": "Cambio de display calidad OLED, AMOLED y Original." },
+      { "title": "Reballing", "desc": "Soldadura de componentes (CPU, memoria) en placa base." }
+    ]
+  },
+  "contact": {
+    "titleA": "Estamos aquí para",
+    "titleB": "ayudarte.",
+    "desc": "Comunícate con nuestros expertos y dale una nueva vida a tus dispositivos.",
+    "whatsappTitle": "WhatsApp",
+    "whatsappDesc": "Respuesta inmediata para cotizaciones.",
+    "soporteA": "Soporte A",
+    "soporteB": "Soporte B",
+    "llamadaTitle": "Llamada",
+    "llamadaDesc": "Atención directa para urgencias.",
+    "linea1": "Llamar línea 1",
+    "linea2": "Llamar línea 2",
+    "correoTitle": "Correo Electrónico",
+    "correoDesc": "Para consultas formales o empresas.",
+    "ubiTitle": "Ubicación",
+    "ubiDesc": "Visítanos en nuestro laboratorio.",
+    "verMapa": "Ver en Mapas"
+  },
+  "brands": {
+    "heroA": "Todas las marcas.",
+    "heroB": "Un solo estándar de calidad.",
+    "available": "Modelos Disponibles",
+    "search": "Buscar tu dispositivo...",
+    "launches": "Lanzamientos",
+    "diagnosis": "Diagnóstico"
+  },
+  "palette": {
+    "searchPlaceholder": "Busca tu dispositivo para reparar...",
+    "results": "Resultados",
+    "suggested": "Sugeridos",
+    "close": "Cerrar resultados",
+    "s1desc": "Todas nuestras opciones de reparación",
+    "s2desc": "Especialistas en Apple y Android"
+  },
+  "repairExtra": {
+    "sentTitle": "¡Enviado correctamente!",
+    "sentMessage": "Te responderemos lo más pronto posible. Gracias por comunicarte con SmartDrill.",
+    "details": "Detalles adicionales",
+    "support": "Soporte Técnico",
+    "quality": "Calidad Certificada",
+    "q1": "Original",
+    "q2": "Garantía",
+    "q3": "Express"
+  },
+  "chat": {
+    "greeting": "Hola! Bienvenido a Smart Drill. ¿En qué te podemos ayudar?",
+    "name": "Smart Drill Asistente",
+    "placeholder": "Escribe tu mensaje...",
+    "empty": "Respuesta vacía del servidor.",
+    "error": "Error de conexión. Verifica que el servidor esté corriendo.",
+    "close": "Cerrar chat",
+    "open": "Abrir chat",
+    "send": "Enviar mensaje"
+  },
+  "footerNav": {
+    "servicios": "Servicios",
+    "marcas": "Marcas",
+    "newsletter": "Newsletter",
+    "contacto": "Contacto"
+  },
+  "locationIntro": {
+    "a": "Visítanos en el",
+    "b": "corazón de la ciudad."
+  },
+  "navMobile": {
+    "home": "INICIO",
+    "swipe": "Desliza"
+  },
+  "authLogin": {
+    "title": "ACCESS_PORTAL",
+    "subtitle": "DISTRIBUTOR AUTHORIZATION REQUIRED",
+    "footer": "NO ACCOUNT? REQUEST ACCESS // REGISTRO",
+    "userPh": "USERNAME / ID",
+    "passPh": "PASSWORD",
+    "submit": "INITIATE SESSION",
+    "badCreds": "Credenciales inválidas"
+  },
+  "authRegistro": {
+    "title": "NEW_DISTRIBUTOR",
+    "subtitle": "CREATE YOUR ACCESS CREDENTIALS",
+    "footer": "Already authorized? Log in here",
+    "namePh": "FULL NAME",
+    "userPh": "USERNAME",
+    "phonePh": "PHONE",
+    "emailPh": "EMAIL ADDRESS",
+    "passPh": "PASSWORD",
+    "passPh2": "CONFIRM PASSWORD",
+    "submit": "CREATE ACCOUNT",
+    "badCreds": "Credenciales inválidas",
+    "mismatch": "Las contraseñas no coinciden",
+    "errorCreate": "Error al crear la cuenta. Intente de nuevo."
+  }
+}

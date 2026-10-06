@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/* Tema claro único: `dark:` solo vale si existe `.dark` (que ya no usamos).
+   Así se ignora el modo oscuro del SO y todo queda claro en móvil/desktop. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Escala base 75%: todo lo que usa `rem` (casi todo Tailwind: textos,
+   paddings, márgenes, widths) se ve como al 75% de zoom estando al 100%.
+   NO se usa `zoom`/`scale` para no encoger el título gigante en `vw`. */
+html {
+  font-size: 75%;
+}
+
+/* En móvil/tablet se restaura la base 100%: el texto pequeño vuelve a su
+   tamaño original legible y los valores convertidos a rem recuperan su px. */
+@media (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+/* Reseteo para eliminar espacios blancos innecesarios */
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: clip;
+}
+
+/* Base responsive: nada puede romper el ancho en móvil/desktop */
+*, *::before, *::after {
+  min-width: 0;
+}
+
+img, video, svg, iframe {
+  max-width: 100%;
+}
+
+img, video {
+  height: auto;
+}
+
+/* Utilidades para animaciones GSAP y Framer Motion */
+.perspective-container {
+  perspective: 2000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+/* Tipografías display/tech (variables provistas por next/font en el layout) */
+.font-display {
+  font-family: var(--font-display), "Arial Black", sans-serif;
+}
+
+.font-tech {
+  font-family: var(--font-tech), ui-monospace, monospace;
+}
+
+.bg-grid-tech {
+  background-image: linear-gradient(to right, #e4e4e7 1px, transparent 1px),
+                    linear-gradient(to bottom, #e4e4e7 1px, transparent 1px);
+  background-size: 2.5rem 2.5rem;
+}
+
+/* Ocultar scrollbars en carruseles / listas (móvil y desktop) */
+@utility scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@utility scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Accesibilidad: foco visible solo con teclado (no altera el diseño con mouse). */
+:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}

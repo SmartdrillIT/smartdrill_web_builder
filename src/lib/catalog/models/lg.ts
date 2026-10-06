@@ -1,0 +1,25 @@
+import type { PhoneModel } from "@/types/catalog";
+
+export const lgModels: PhoneModel[] = [
+    { name: "LG Wing", year: 2020, image: "/lg/LG Wing.png" },
+    { name: "LG Velvet", year: 2020, image: "/lg/LG Velvet.png" },
+    { name: "LG V60 ThinQ 5G", year: 2020, image: "/lg/LG V60 ThinQ 5G.png" },
+    { name: "LG K92 5G", year: 2020, image: "/lg/LG K92 5G.png" },
+    { name: "LG K62", year: 2020, image: "/lg/LG K62.png" },
+    { name: "LG K52", year: 2020, image: "/lg/LG K52.png" },
+    { name: "LG K42", year: 2020, image: "/lg/LG K42.png" },
+    { name: "LG Stylo 6", year: 2020, image: "/lg/LG Stylo 6.png" },
+    { name: "LG G8 ThinQ", year: 2019, image: "/lg/LG G8 ThinQ.png" },
+    { name: "LG G8X ThinQ", year: 2019, image: "/lg/LG G8X ThinQ.png" },
+    { name: "LG V50 ThinQ 5G", year: 2019, image: "/lg/LG V50 ThinQ 5G.png" },
+    { name: "LG Q60", year: 2019, image: "/lg/LG Q60.png" },
+    { name: "LG Stylo 5", year: 2019, image: "/lg/LG Stylo 5.png" },
+    { name: "LG G7 ThinQ", year: 2018, image: "/lg/LG G7 ThinQ.png" },
+    { name: "LG V40 ThinQ", year: 2018, image: "/lg/LG V40 ThinQ.png" },
+    { name: "LG V35 ThinQ", year: 2018, image: "/lg/LG V35 ThinQ.png" },
+    { name: "LG Q7", year: 2018, image: "/lg/LG Q7.png" },
+    { name: "LG G6", year: 2017, image: "/lg/LG G6.png" },
+    { name: "LG V30", year: 2017, image: "/lg/LG V30.png" },
+    { name: "LG G5", year: 2016, image: "/lg/LG G5.png" },
+    { name: "LG V20", year: 2016, image: "/lg/LG V20.png" },
+];

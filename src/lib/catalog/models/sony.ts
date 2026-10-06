@@ -1,0 +1,28 @@
+import type { PhoneModel } from "@/types/catalog";
+
+export const sonyModels: PhoneModel[] = [
+    { name: "Sony Xperia 1 VI", year: 2024, image: "/sony/Sony Xperia 1 VI.png" },
+    { name: "Sony Xperia 10 VI", year: 2024, image: "/sony/Sony Xperia 10 VI.png" },
+    { name: "Sony Xperia 1 V", year: 2023, image: "/sony/Sony Xperia 1 V.png" },
+    { name: "Sony Xperia 5 V", year: 2023, image: "/sony/Sony Xperia 5 V.png" },
+    { name: "Sony Xperia 10 V", year: 2023, image: "/sony/Sony Xperia 10 V.png" },
+    { name: "Sony Xperia 1 IV", year: 2022, image: "/sony/Sony Xperia 1 IV.png" },
+    { name: "Sony Xperia 5 IV", year: 2022, image: "/sony/Sony Xperia 5 IV.png" },
+    { name: "Sony Xperia 10 IV", year: 2022, image: "/sony/Sony Xperia 10 IV.png" },
+    { name: "Sony Xperia PRO-I", year: 2021, image: "/sony/Sony Xperia PRO-I.png" },
+    { name: "Sony Xperia 1 III", year: 2021, image: "/sony/Sony Xperia 1 III.png" },
+    { name: "Sony Xperia 5 III", year: 2021, image: "/sony/Sony Xperia 5 III.png" },
+    { name: "Sony Xperia 10 III", year: 2021, image: "/sony/Sony Xperia 10 III.png" },
+    { name: "Sony Xperia 1 II", year: 2020, image: "/sony/Sony Xperia 1 II.png" },
+    { name: "Sony Xperia 5 II", year: 2020, image: "/sony/Sony Xperia 5 II.png" },
+    { name: "Sony Xperia 10 II", year: 2020, image: "/sony/Sony Xperia 10 II.png" },
+    { name: "Sony Xperia L4", year: 2020, image: "/sony/Sony Xperia L4.png" },
+    { name: "Sony Xperia 1", year: 2019, image: "/sony/Sony Xperia 1.png" },
+    { name: "Sony Xperia 5", year: 2019, image: "/sony/Sony Xperia 5.png" },
+    { name: "Sony Xperia 10 Plus", year: 2019, image: "/sony/Sony Xperia 10 Plus.png" },
+    { name: "Sony Xperia 10", year: 2019, image: "/sony/Sony Xperia 10.png" },
+    { name: "Sony Xperia L3", year: 2019, image: "/sony/Sony Xperia L3.png" },
+    { name: "Sony Xperia XZ3", year: 2018, image: "/sony/Sony Xperia XZ3.png" },
+    { name: "Sony Xperia XZ2 Premium", year: 2018, image: "/sony/Sony Xperia XZ2 Premium.png" },
+    { name: "Sony Xperia XA2 Ultra", year: 2018, image: "/sony/Sony Xperia XA2 Ultra.png" },
+];

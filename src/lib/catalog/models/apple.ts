@@ -1,0 +1,25 @@
+import type { PhoneModel } from "@/types/catalog";
+
+export const appleModels: PhoneModel[] = [
+    { name: "iPhone 17 Pro Max", year: 2025, image: "/Iphone/IPhone_17_Pro_Max_Vector.svg.png" },
+    { name: "iPhone 17", year: 2025, image: "/Iphone/IPhone_17_Vector.svg.png" },
+    { name: "iPhone 16 Pro Max", year: 2024, image: "/Iphone/IPhone_16_Pro_Max_Vector.svg.png" },
+    { name: "iPhone 16", year: 2024, image: "/Iphone/IPhone_16_Vector.svg.png" },
+    { name: "iPhone 15 Pro Max", year: 2023, image: "/Iphone/IPhone_15_Pro_Max_Vector.svg.png" },
+    { name: "iPhone 15 Pro", year: 2023, image: "/Iphone/IPhone_15_Pro_Vector.svg.png" },
+    { name: "iPhone 15", year: 2023, image: "/Iphone/IPhone_15_Pro_Vector.svg.png" },
+    { name: "iPhone 14 Pro Max", year: 2022, image: "/Iphone/IPhone_14_vector.svg.png" },
+    { name: "iPhone 14", year: 2022, image: "/Iphone/IPhone_14_vector.svg.png" },
+    { name: "iPhone 13 Pro", year: 2021, image: "/Iphone/IPhone_13_Pro_vector.svg.png" },
+    { name: "iPhone 13", year: 2021, image: "/Iphone/IPhone_13_vector.svg.png" },
+    { name: "iPhone 13 mini", year: 2021, image: "/Iphone/IPhone_13_vector.svg.png" },
+    { name: "iPhone 12 Pro", year: 2020, image: "/Iphone/IPhone_12_Pro_Gold.svg.png" },
+    { name: "iPhone 12 mini", year: 2020, image: "/Iphone/IPhone_12_Mini_Blue.svg.png" },
+    { name: "iPhone 12", year: 2020, image: "/Iphone/Iphone-12-product--red.png" },
+    { name: "iPhone 11", year: 2019, image: "/Iphone/IPhone_11_Green.svg.png" },
+    { name: "iPhone X", year: 2017, image: "/Iphone/IPhone_X_vector.svg.png" },
+    { name: "iPhone 8", year: 2017, image: "/Iphone/IPhone_8_Product_Red_vector.svg.png" },
+    { name: "iPhone 7", year: 2016, image: "/Iphone/IPhone_7_Jet_Black.svg.png" },
+    { name: "iPhone 6s", year: 2015, image: "/Iphone/IPhone_6s_vector.svg.png" },
+    { name: "iPhone SE (2nd gen)", year: 2020, image: "/Iphone/IPhone_SE_(2nd_generation)_white_vector.svg.png" },
+];

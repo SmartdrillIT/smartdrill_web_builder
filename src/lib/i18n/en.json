@@ -1,0 +1,243 @@
+{
+  "navbar": {
+    "brand": "Telephony",
+    "brandHighlight": "Drill",
+    "tagline": "Technical Service",
+    "links": {
+      "services": "Services",
+      "brands": "Brands",
+      "contact": "Contact Us"
+    },
+    "mobile": {
+      "navTitle": "Navigation",
+      "status": "Online",
+      "support": "Immediate technical support"
+    }
+  },
+  "hero": {
+    "title": "Telephony",
+    "highlight": "Drill",
+    "description": "Hardware and software repair for computers, tablets, and smartphones."
+  },
+  "openStatus": {
+    "openNow": "Open now",
+    "closingSoon": "Closing soon",
+    "closed": "Closed",
+    "until": "until {time}",
+    "opensToday": "opens today {time}",
+    "opensTomorrow": "opens tomorrow {time}",
+    "opensDay": "opens {day} {time}",
+    "weekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+  },
+  "mascot": {
+    "name": "SmartDrill",
+    "role": "your virtual technician"
+  },
+  "repairModal": {
+    "title": "What's wrong with your device?",
+    "options": {
+      "pantalla": "Broken Screen",
+      "bateria": "Battery Replacement",
+      "puerto": "Charging Port",
+      "camara": "Damaged Cameras",
+      "altavoz": "Speaker / Audio",
+      "mojado": "Water Damage",
+      "otros": "Other Issues"
+    },
+    "placeholder": "Other issue or detail...",
+    "cta": "Quote via WhatsApp",
+    "whatsappMessage": "Hi! I would like to get a quote for: *{model}*\n\n *Detected issues:*\n{issues}\n\nCould you give me an estimated price?"
+  },
+  "servicesSection": {
+    "title": "Services"
+  },
+  "servicesGrid": {
+    "title": "What we do",
+    "badge": "Specialists",
+    "more": "Learn more",
+    "description": "Comprehensive technological solutions. From complex repairs to preventive maintenance.",
+    "items": [
+      {
+        "title": "Cell Phone Repair",
+        "desc": "Diagnosis and repair for all brands and models."
+      },
+      {
+        "title": "Computers and Laptops",
+        "desc": "Hardware and software maintenance and optimization."
+      },
+      {
+        "title": "Charging Port Replacement",
+        "desc": "Precision soldering with high-quality spare parts."
+      },
+      {
+        "title": "Google Account",
+        "desc": "If you forgot your account, we help you recover it."
+      },
+      {
+        "title": "Quick Diagnosis",
+        "desc": "Detailed professional evaluation without commitment."
+      },
+      {
+        "title": "Service Warranty",
+        "desc": "Total support in each of our repairs."
+      }
+    ]
+  },
+  "location": {
+    "title": "Our Location",
+    "baseTitle": "Base of Operations",
+    "addressCode": "S15-190",
+    "addressStreet": "Pedro Vicente Maldonado,",
+    "addressCity": "Quito 170601, Ecuador",
+    "scheduleTitle": "Opening Hours",
+    "days": {
+      "week": "Monday - Friday:",
+      "saturday": "Saturday:",
+      "sunday": "Sunday:"
+    },
+    "status": {
+      "closed": "Closed / Offline"
+    },
+    "cta": "Get Directions"
+  },
+  "footer": {
+    "brand": "Smart Drill",
+    "about": "Specialists in reviving your technology. Quality, speed, and warranty in every cell phone and computer repair.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "address": "123 Main Ave, City",
+    "phone": "+593 0987980898",
+    "copyright": "© {year} Smart Drill Technical Service. All rights reserved.",
+    "links": {
+      "privacy": "Privacy",
+      "terms": "Terms"
+    }
+  },
+  "servicesPage": {
+    "kicker": "SmartDrill Service",
+    "titleA": "Repair.",
+    "titleB": "To the millimeter.",
+    "desc": "It's not just a repair. It's bringing back to life the technology you use every day.",
+    "cta": "Explore services",
+    "philosophyA": "We make the complex,",
+    "philosophyB": "simple",
+    "gridTitle": "Everything you need.",
+    "gridDesc": "Specific solutions for every problem with your device.",
+    "processTitle": "How we work.",
+    "ctaTitle": "Ready to repair.",
+    "ctaDesc": "Bring your device today. We leave it like new.",
+    "ctaButton": "Contact via WhatsApp",
+    "philosophy": [
+      { "title": "Exact Diagnosis", "text": "State-of-the-art tools to find the real problem." },
+      { "title": "Original Quality", "text": "We use OLED, AMOLED screens and the highest fidelity components." },
+      { "title": "Total Warranty", "text": "Your peace of mind first. Every repair is backed." }
+    ],
+    "process": [
+      { "title": "Diagnosis", "desc": "We thoroughly evaluate your device to give you an exact quote." },
+      { "title": "Repair", "desc": "Technicians apply micro-soldering with surgical precision." },
+      { "title": "Delivery", "desc": "We test every function before handing it back." }
+    ],
+    "services": [
+      { "title": "Google", "desc": "If you forgot your Google account, we help you." },
+      { "title": "Maintenance", "desc": "Board and connector treatment after liquid contact." },
+      { "title": "PC Repair", "desc": "Multi-brand hardware/software diagnosis and repair." },
+      { "title": "Charging Port", "desc": "Port and charging board replacement for Android and iOS." },
+      { "title": "Batteries", "desc": "Battery replacement for all Android and iOS models." },
+      { "title": "Micro Soldering", "desc": "FPC, charging IC, capacitor and filter replacement." },
+      { "title": "Screens", "desc": "OLED, AMOLED and Original quality display replacement." },
+      { "title": "Reballing", "desc": "Component soldering (CPU, memory) on the motherboard." }
+    ]
+  },
+  "contact": {
+    "titleA": "We are here to",
+    "titleB": "help you.",
+    "desc": "Reach out to our experts and give your devices a new life.",
+    "whatsappTitle": "WhatsApp",
+    "whatsappDesc": "Immediate response for quotes.",
+    "soporteA": "Support A",
+    "soporteB": "Support B",
+    "llamadaTitle": "Call",
+    "llamadaDesc": "Direct attention for urgencies.",
+    "linea1": "Call line 1",
+    "linea2": "Call line 2",
+    "correoTitle": "Email",
+    "correoDesc": "For formal or business inquiries.",
+    "ubiTitle": "Location",
+    "ubiDesc": "Visit us at our lab.",
+    "verMapa": "View in Maps"
+  },
+  "brands": {
+    "heroA": "Every brand.",
+    "heroB": "One quality standard.",
+    "available": "Available Models",
+    "search": "Search your device...",
+    "launches": "Releases",
+    "diagnosis": "Diagnosis"
+  },
+  "palette": {
+    "searchPlaceholder": "Search your device to repair...",
+    "results": "Results",
+    "suggested": "Suggested",
+    "close": "Close results",
+    "s1desc": "All our repair options",
+    "s2desc": "Apple and Android specialists"
+  },
+  "repairExtra": {
+    "sentTitle": "Sent successfully!",
+    "sentMessage": "We will reply as soon as possible. Thanks for contacting SmartDrill.",
+    "details": "Additional details",
+    "support": "Technical Support",
+    "quality": "Certified Quality",
+    "q1": "Original",
+    "q2": "Warranty",
+    "q3": "Express"
+  },
+  "chat": {
+    "greeting": "Hi! Welcome to Smart Drill. How can we help you?",
+    "name": "Smart Drill Assistant",
+    "placeholder": "Type your message...",
+    "empty": "Empty server response.",
+    "error": "Connection error. Check that the server is running.",
+    "close": "Close chat",
+    "open": "Open chat",
+    "send": "Send message"
+  },
+  "footerNav": {
+    "servicios": "Services",
+    "marcas": "Brands",
+    "newsletter": "Newsletter",
+    "contacto": "Contact"
+  },
+  "locationIntro": {
+    "a": "Visit us in the",
+    "b": "heart of the city."
+  },
+  "navMobile": {
+    "home": "HOME",
+    "swipe": "Swipe"
+  },
+  "authLogin": {
+    "title": "ACCESS_PORTAL",
+    "subtitle": "DISTRIBUTOR AUTHORIZATION REQUIRED",
+    "footer": "NO ACCOUNT? REQUEST ACCESS // REGISTRO",
+    "userPh": "USERNAME / ID",
+    "passPh": "PASSWORD",
+    "submit": "INITIATE SESSION",
+    "badCreds": "Invalid credentials"
+  },
+  "authRegistro": {
+    "title": "NEW_DISTRIBUTOR",
+    "subtitle": "CREATE YOUR ACCESS CREDENTIALS",
+    "footer": "Already authorized? Log in here",
+    "namePh": "FULL NAME",
+    "userPh": "USERNAME",
+    "phonePh": "PHONE",
+    "emailPh": "EMAIL ADDRESS",
+    "passPh": "PASSWORD",
+    "passPh2": "CONFIRM PASSWORD",
+    "submit": "CREATE ACCOUNT",
+    "badCreds": "Invalid credentials",
+    "mismatch": "Passwords do not match",
+    "errorCreate": "Error creating the account. Try again."
+  }
+}
